@@ -1,38 +1,38 @@
-English / [Japanese](./README_JP.md)
+[英語](./README.md) / 日本語
 
 <!-- ![](./res/) -->
 
 # python-template
 
-Template repository for Python project.
+Pythonプロジェクトのためのボイラープレート。
 
-## Features
+## 特徴
 
-Includes
+これらを含む
 
 * Python
 * Pipenv
 
-## Installation
+## インストール
 
 ```sh
 git clone https://github.com/not-dev/python-template.git
 ```
 
-## Usage
+## 使用方法
 
 ```sh
 SET PIPENV_VENV_IN_PROJECT=1
 py -m pipenv install --dev
 ```
 
-## License
+## ライセンス
 
-* Code: MIT License
-* Logos: CC BY-ND
-* This project includes open source software.
+* コード: MIT License
+* ロゴ: CC BY-ND
+* このプロジェクトはOSSを含みます
 
-## How to make
+## 生成方法
 
 ```sh
 # .venv, Pipfile, Pipfile.lock

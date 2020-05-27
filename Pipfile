@@ -7,9 +7,11 @@ verify_ssl = true
 flake8 = "*"
 mypy = "*"
 black = "*"
+wheel = "*"
+twine = "*"
+python-dotenv = "*"
 
 [packages]
-python-dotenv = "*"
 
 [requires]
 python_version = "3.8"
